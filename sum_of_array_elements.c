@@ -9,7 +9,6 @@ int main()
 	{
 		scanf("%d",&a[i]);
 	}
-	printf("the entered array is\n");
 	for(i=0;i<n;i++)
 	{
 		sum=sum + a[i];
