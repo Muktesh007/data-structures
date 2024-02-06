@@ -12,7 +12,7 @@ int main()
     }
     printf("enter the index where you want to delete");
     scanf("%d",&m);
-    for(i=1;i<n;i++)
+    for(i=1;i<=n;i++)
     {
 	  	for(i=m;i<=n;i++)
 	  	{
