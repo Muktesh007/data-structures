@@ -10,23 +10,20 @@ int main()
 	{
 		scanf("%d",&a[i]);
 	}
-	printf("enter the element which you want to search");
+	printf("enter the element which you want to search"); 
 	scanf("%d",&k);
 	for(i=0;i<n;i++)
 	{
 	  if(k==a[i])
 	  {
-	  	count++;
+	  	printf("successful\n");
+	  	printf("the element position of %d is %d",k,i+1);
+        count++;   	  
 	  }
-	}
-		if(count==1)
-		{
-			printf("successful\n");
-			printf("the element %d is present in %dth position",k,i+1);
-		}
-		else
-		{
-			printf("unsuccessful\n");
-			printf("the element %d is not present in the array",k);
-		}
+    }
+    if(count==0)
+	  {
+	  	printf("unsuccessful\n");
+	  	printf("the element is not present",k);
+}
 }
